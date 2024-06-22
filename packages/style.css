@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Coda+Caption:800|Monoton|Mukta|PT+Mono|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Roboto+Condensed|Ubuntu&display=swap');
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+	background-color: #E0E0E0;
+}
+.navbar
+{
+	background-color: #000000;
+ 	text-transform: uppercase;
+}
+.navbar-brand
+{
+	color: white;
+	height: 20%;
+}
+.nav-link
+{
+	font-size: 16px;
+	margin: 15px;
+	color: white!important;
+	font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+	color: #FFD700!important;
+	cursor: pointer;
+}
+.active .nav-link
+{
+	color: #FFD700!important;
+}
+.menu-right-btn{
+	padding: 13px 46px;
+	background:transparent;
+	transition: all 300ms ease-in;
+	width: 250px;
+	height: 50px;  
+	color: white;
+}
+.menu-right-btn:hover{
+	color: black;
+	background-color: #FFD700;
+}
+.navbar-toggler-icon
+{
+
+	background-color: #FFD700!important;
+	border-color: white!important;
+	border-radius: 3px;
+}
+.site-content
+{
+	background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(assets/6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+.site-title{
+	color: #FFD700;
+	font-family: 'Righteous';
+}
+.site-title
+{
+	margin-top: 10%;
+	margin-bottom: 6%;
+	font-size: 50px;
+}
+.img-top
+{
+	height: 50px;
+	width: 50px;
+	margin-top: 200px; 
+    margin-left:90px;
+}
+/*Card section*/
+.heading
+{
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Righteous';
+	margin-bottom: 5%;
+}
+.card
+{
+	margin-left: 8%;
+	margin-bottom: 200px;
+}
+.card-title, .card-text, .card-header
+{
+	text-align: center;
+	color: black;
+}
+.btn
+{
+	text-align: center;
+	margin-left: 30%;
+}
+/*Footer*/
+.social i{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 10%;
+}
+.social i:hover
+{
+	color: #FFD700;
+}
+.links
+{
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 100px;
+
+}
+.links:hover
+{
+	color: blue;
+}
+.footer .row{
+  background-color: #505962;
+   padding: 1rem 2rem 3rem;
+  color: white; 
+ }
+.footer img{
+  height: 2rem;
+  margin: 1.2rem 0;
+
+}
+.col-md-4 p{ 
+  float: left;
+}
+
+
+
